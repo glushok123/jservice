@@ -1,0 +1,387 @@
+@media (max-width: 1100px) {
+    .points {
+        display: none;
+    }
+    
+    .catalogModal {
+        max-width: 150px;
+        padding: 13px 12px 13px 12px;
+        font-size: 13px;
+    }
+	.headCol {
+		font-size: 18px;
+	}
+    .catalogModal img {
+        display: none;
+    }
+
+    #main-header .middleHeader {
+        column-gap: 18px;
+    }
+
+    #menu-catalog li a, .otherLabel {
+        padding: 3px 14px 3px 10px !important;
+        font-size: 13px;
+    }
+
+    .bottomHeader {
+        justify-content: center;
+    }
+
+    #menu-catalog li a img {
+        height: 16px !important;
+        margin-right: 6px;
+    }
+
+    .otherItems .otherLabel {
+    }
+
+    #main-header .search-form {
+        display: none;
+    }
+
+    .custom-logo {
+        max-width: 230px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .media-large {
+        display: block !important;
+    }
+}
+
+@media (max-width: 1400px) {
+    .tableHeading {
+        padding: 13px 25px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .catalog-heading .b-img {
+        right: 55px;
+    }
+    .contentRow {
+        padding: 6px 25px;
+    }
+    .worksTable__footer {
+        padding: 26px 37px;
+        column-gap: 24px;
+    }
+    .media-medium {
+        display: block !important;
+    }
+	.mainCategoriesList-wrapper {
+		grid-template-columns: repeat(5,1fr);
+	}
+    #menu-catalog li:nth-last-child(2) {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    #menu-catalog li a, .otherLabel {
+    padding: 3px 11px 3px 11px !important;
+    }
+    #menu-catalog li:nth-last-child(2) {
+        display: none !important;
+    }
+
+    #menu-catalog2 li.large-hidden {
+        display: block !important;
+    }
+
+    .jobTime {
+        display: flex;
+        align-items: center;
+        column-gap: 6px;
+    }
+
+    .jobTime__label {
+        font-size: 0 !important;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        background-image: url(../fonts/clocks-mobile.svg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .leadBlock {
+        width: 57% !important;
+    }
+
+    .menu-catalog-container .menu > li > a {
+        padding: 3px 20px 3px 26px !important;
+    }
+
+    .offer-part .msPhone {
+        width: 100%;
+        max-width: 369px;
+        background-position: -4% 40%;
+    }
+
+    .catalog-heading input.msSubmit {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 369px;
+        margin-top: 11px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+    .container {
+        max-width: 1180px;
+    }
+
+    .archiveEndform {
+        padding-top: 45px;
+    }
+
+    .brands-heading__title {
+        font-size: 42px;
+    }
+
+    .brands-heading__text br {
+        display: none;
+    }
+
+    .priceRow__cb {
+        height: 54px;
+    }
+
+    .priceRow__cost {
+        width: 58%;
+        padding: 18px 30px 18px 28px;
+        font-size: 15px;
+    }
+
+    .searchPart-header {
+        column-gap: 14px;
+    }
+
+    #menu-catalog li a img {
+        height: 16px;
+        margin-right: 6px;
+    }
+
+    .custom-logo {
+        width: 100%;
+        max-width: 230px;
+    }
+
+    .logoPart-header svg {
+        height: 50px;
+        width: 133px;
+    }
+
+    .catalogModal {
+        font-size: 14px;
+    }
+
+    .headerSubmit {
+        right: 13px;
+        background-size: 15px;
+    }
+
+    .adressCity {
+        font-size: 16px;
+    }
+
+    .adressStrt {
+        font-size: 13px;
+    }
+
+    .phoneHeader {
+        font-size: 14px;
+        text-align: right;
+    }
+
+    #menu-catalog li a, .otherLabel {
+        font-size: 15px;
+    }
+
+    .modalTrigger {
+        font-size: 14px;
+    }
+
+    .otherItems span.otherLabel {
+        padding: 3px 20px 3px 11px;
+    }
+
+    .catalogModal img {
+        height: 37px;
+        top: 3px;
+        left: 13px;
+    }
+
+    .adressHeader {
+        margin-right: 0;
+    }
+
+    .topInfo span {
+        font-size: 14px;
+    }
+
+    .otherItems .otherLabel i {
+        right: 0px;
+    }
+
+    #menu-catalog2 a {
+        font-size: 15px;
+    }
+
+    .mpBlock-title {
+        font-size: 49px;
+        padding: 0;
+    }
+
+    .mpBlock-p {
+        font-size: 18px;
+    }
+
+    .offer-phones {
+        top: 105px;
+        height: 490px;
+        right: 20px;
+    }
+
+    .offer-decorate-01 {
+        right: 450px;
+        bottom: 10px;
+    }
+
+    .offer-decorate-03 {
+        right: 446px;
+        top: 120px;
+    }
+
+    .offer-decorate-02 {
+        right: 259px;
+        top: 127px;
+    }
+
+    .middleHeader {
+        column-gap: 26px;
+        padding: 20px 0 15px 0;
+    }
+
+    .leadBlock {
+        width: 58%;
+        padding-left: 28px;
+    }
+
+    .leadBlock p {
+        font-size: 15px;
+    }
+
+    .mainAdvs-item {
+    }
+
+    .maTitle {
+        font-size: 16px;
+        width: 88%;
+    }
+
+    .titleH2 {
+        font-size: 39px;
+    }
+
+    .fsTitle {
+        width: 100%;
+        font-size: 37px;
+        line-height: 1;
+    }
+
+    .popularSlider .swiper-slide {
+        width: 275px;
+    }
+
+    .readmoreCarousel {
+        padding: 13px 22px;
+    }
+
+    .priceCarousel {
+        font-size: 19px;
+    }
+    .adsList-ul li img {
+        height: 110px;
+        max-width: 100px;
+        object-fit: contain;
+        top: unset;
+        bottom: -20px;
+    }
+    .adsList-ul li {
+        padding: 30px 23px 95px 19px;
+    }
+
+    .adsItem {
+        font-size: 15px;
+    }
+
+    .salesWrapper .articleItem {
+        padding: 42px 40px 185px 40px;
+    }
+
+    .titleSale {
+        font-size: 21px;
+    }
+
+    .lf-content {
+        width: 54%;
+    }
+
+    .lfText {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+    .container {
+        max-width: 1380px;
+    }
+
+    #menu-catalog li a {
+    }
+
+    .mpBlock-title {
+        padding-right: 80px;
+    }
+
+    .leadBlock {
+        padding-left: 36px;
+    }
+
+    .mainAdvs-item {
+    }
+
+    .fsTitle {
+    }
+
+    .fsMain {
+        padding: 45px 70px 60px 274px;
+    }
+
+    .readmoreCarousel {
+        padding: 13px 49px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .salesWrapper .articleItem {
+        padding: 72px 100px 195px 40px;
+    }
+
+    .roomsCategories .room-item {
+        margin-right: 4%;
+    }
+
+    .advItem {
+        margin-right: 2.6%;
+    }
+
+    .mpBlock {
+        height: 465px;
+    }
+}
