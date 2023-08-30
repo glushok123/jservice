@@ -39,7 +39,7 @@
 						<div class="success"></div>
 					</div>
 					<div class="rp-block">
-						<img class="offer-phones" src="images/offer-img.png">
+						<img class="offer-phones" src="images/итог.png">
 					</div>
 				</div>
 			</section>

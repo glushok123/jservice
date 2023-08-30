@@ -110,7 +110,7 @@ $categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('id', 'ASC')-
                     <div class="searchPart-header">
                         <div class="desk-hidden menuMobile js-open-modal" data-modal="3"></div>
                         <button class="catalogModal js-open-modal button-puls primary-button" data-modal="2">
-                            <img src="/fonts/energy.svg">Срочный ремонт
+                            <img src="/images/JService знак.png">Срочный ремонт
                             <span class="shine"></span>
                         </button>
 

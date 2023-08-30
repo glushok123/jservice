@@ -10,6 +10,9 @@ use App\Http\Requests\UpdateRepairOrderRequest;
 use Illuminate\Http\Request;
 use App\Models\RepairBrand;
 use App\Models\RepairService;
+use NotificationChannels\Telegram\TelegramUpdates;
+use NotificationChannels\Telegram\TelegramMessage;
+use Illuminate\Notifications\Notification;
 
 class RepairOrderController extends Controller
 {
@@ -35,12 +38,12 @@ class RepairOrderController extends Controller
             $order->phone = $request->phone;
         }
 
+
         if ($request->has('url')) {
             $url = $request->url;
-
-            if (strpos($url, 'category') === true) {
+            
+            if (strpos($url, '/category/')) {
                 $array = explode('/', $url);
-
                 $categorySlug = end($array);
                 $repairCategory = RepairCategory::where('slug', $categorySlug)->first();
 
@@ -108,6 +111,7 @@ class RepairOrderController extends Controller
         }
 
         $order->save();
+        $order->notify(new \App\Notifications\OrdersPublished());
 
         return response()->json([
             'status' => 'success',
