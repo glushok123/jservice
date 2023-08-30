@@ -52,8 +52,8 @@
 				</div>
 				<div class="footerPart-3 footer-col">
 
-					<div class="footer-title">ASC Service в соц. сетях</div>
-					<div class="menu-other-container box-icon-social">
+					<!--div class="footer-title">ASC Service в соц. сетях</!--div>
+					<div-- class="menu-other-container box-icon-social">
 						<div class="social-icon">
 							<a target="_blank" href="https://www.youtube.com/@asc-rem">
 								<img src="/fonts/Youtube.svg" alt="YouTube">
@@ -64,7 +64,7 @@
 								<img src="/fonts/VK.svg" alt="ВКонтакте">
 							</a>
 						</div>
-					</div>
+					</div-->
 
 					<div class="menu-other-container this-social">
 						<ul id="menu-other" class="menu">

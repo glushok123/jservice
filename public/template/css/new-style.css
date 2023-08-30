@@ -2447,7 +2447,7 @@ body {
 }
 
 .btn-zapis {
-    background: linear-gradient(244deg, #b721ffc7 0, #21d4fdc7 100%);
+    background: linear-gradient(244deg, #029ab2 0, #152330 100%);;
     border: 0;
     border-radius: 100px;
     color: #fff;
@@ -3206,7 +3206,7 @@ body {
     font-size: 30px;
     font-weight: 600;
     width: 100%;
-    background: linear-gradient(244deg, #b721ff 0, #21d4fd 100%);
+    background: linear-gradient(244deg, #029ab2 0, #152330 100%);
     color: white;
     text-align: center;
     padding: 6px;

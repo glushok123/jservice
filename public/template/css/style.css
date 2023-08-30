@@ -813,7 +813,7 @@ textarea {
 }
 
 .primary-button {
-    background: linear-gradient(244deg, #b721ff 0, #21d4fd 100%);
+    background: linear-gradient(244deg, #029ab2 0, #152330 100%);
     border-radius: 100px;
     color: #fff;
     border: 0;
@@ -906,7 +906,7 @@ textarea {
 }
 
 #menu-catalog li a:hover {
-    color: #904efe
+    color: #243f97
 }
 
 #main-header {
@@ -937,7 +937,7 @@ textarea {
 }
 
 .otherItems .otherLabel:hover {
-    color: #904efe
+    color: #243f97
 }
 
 .otherItems .otherLabel {
@@ -1139,7 +1139,7 @@ textarea {
 }
 
 input.msSubmit {
-    background: linear-gradient(244deg, rgb(183 33 255/78%)0, rgb(33 212 253/78%) 100%);
+    background: linear-gradient(244deg, #029ab2 0, #152330 100%);;
     border: 0;
     border-radius: 100px;
     color: #fff;
@@ -1420,7 +1420,7 @@ input.msSubmit:hover {
 }
 
 .getConsult {
-    background: linear-gradient(244deg, #b721ffc7 0, #21d4fdc7 100%);
+    background: linear-gradient(244deg, #029ab2 0, #152330 100%);;
     border: 0;
     border-radius: 100px;
     color: #fff;
@@ -2132,7 +2132,7 @@ input.mSubmit {
     height: 58px;
     border-radius: 110px;
     border: 0;
-    background-image: linear-gradient(244deg, #b721ffc7 0, #21d4fdc7 100%);
+    background-image: linear-gradient(244deg, #029ab2 0, #152330 100%);;
     color: #fff;
     cursor: pointer
 }
@@ -2227,7 +2227,7 @@ li.menu-item-260776 img {
 
 #menu-catalog2 a:hover,
 #menu-catalog2 span:hover {
-    color: #904efe
+    color: #243f97
 }
 
 #menu-catalog2 li {
@@ -3448,7 +3448,7 @@ div#review_form p.stars {
 }
 
 .get-table {
-    background: linear-gradient(244deg, #b721ffc7 0, #21d4fdc7 100%);
+    background: linear-gradient(244deg, #029ab2 0, #152330 100%);;
     border: 0;
     border-radius: 100px;
     color: #fff;
@@ -3481,7 +3481,7 @@ div#review_form p.stars {
 }
 
 .priceRow__cb {
-    background: linear-gradient(244deg, #b721ff 0, #21d4fd 100%);
+    background: linear-gradient(244deg, #029ab2 0, #152330 100%);
     padding: 0 65px;
     border-radius: 130px;
     border: 0;
@@ -3678,13 +3678,13 @@ figure.gallery-item img {
 
 .current-menu-item a,
 .current-menu-item span {
-    color: #904efe !important
+    color: #243f97 !important
 }
 
 .scroll-top {
     width: 58px;
     height: 58px;
-    background-image: linear-gradient(244deg, #b721ff 0, #21d4fd 100%);
+    background-image: linear-gradient(244deg, #029ab2 0, #152330 100%);
     opacity: .31;
     border-radius: 230px;
     position: fixed;
@@ -3817,7 +3817,7 @@ figure.gallery-item img {
 }
 
 #menu-mainmenu a:hover {
-    color: #904efe;
+    color: #243f97;
     transition: .15s ease-in-out
 }
 
@@ -3827,7 +3827,7 @@ figure.gallery-item img {
 }
 
 .phone-trigger:hover {
-    color: #904efe
+    color: #243f97
 }
 
 .media-large,
