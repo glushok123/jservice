@@ -438,14 +438,13 @@ if (document.querySelector('#gallery-1')) {
 jQuery(document).ready(function ($) {
 
 	// Получаем ссылку для атрибута 'action'
-	//const link = 'https://' + window.location.hostname + '/search';
-	//$('.custom-search').attr('action', link);
+	const link = 'http://' + window.location.hostname + ':8000/search';
+	$('.custom-search').attr('action', link);
 
 	// Получаем ключ Яндекс для того чтобы работал поиск
-	//let idSearch = $('.ya-site-form').attr('data-bem');
-	//let arr = JSON.parse(idSearch);
-	//$('[name="searchid"]').val(arr['searchid']);
-
+	let idSearch = $('.ya-site-form').attr('data-bem');
+	let arr = JSON.parse(idSearch);
+	$('[name="searchid"]').val(arr['searchid']);
 
 
 	// закрыть модальное окно СПАСИБО

@@ -19,6 +19,7 @@ Route::get('/news', function () { return view('news'); });
 Route::get('/contacts', function () { return view('contacts'); });
 Route::get('/privacy-policy', function () { return view('privacy_policy'); });
 Route::get('/cookies', function () { return view('cookies'); });
+Route::get('/search', function () { return view('search'); });
 
 Route::post('/sendform', 'RepairOrderController@create');
 
