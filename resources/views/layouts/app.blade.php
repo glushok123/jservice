@@ -21,7 +21,7 @@
     <meta property="og:description"
         content="Бесплатная диагностика за 30 минут даже при отказе от ремонта. Среднее время ремонта до 50 минут. Гарантия на ремонт и запчасти до 3-х лет.">
 
-    <meta property="og:site_name" content="Федеральная сеть сервисных центров ASC в Москве">
+    <meta property="og:site_name" content="Федеральная сеть сервисных центров в Москве">
     <meta property="og:image" content="images/offer-img.png">
     <meta property="og:image:secure_url" content="images/offer-img.png">
     <meta property="og:image:width" content="679">
@@ -53,12 +53,15 @@
 .breadcrumb {
     margin-bottom: 0px;
 }
+.color-white{
+    /*color: white;*/
+}
 </style>
 
 @php
 use App\Models\RepairCategory;
 
-$categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('id', 'ASC')->get();
+$categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('sort', 'ASC')->get();
 @endphp
 
 <body class='wp-custom-logo home'>
@@ -131,7 +134,7 @@ $categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('id', 'ASC')-
                     </div>
                     <div class="contactPart-header">
                         <div class="adressHeader">
-                            <img src="/fonts/mapper.svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" style="margin-right:10px;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#436193}</style><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
                             <div>
                                 <div class="adressCity">г. Москва</div>
                                 <div class="adressStrt">Шверника, 1к1</div>
@@ -175,7 +178,7 @@ $categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('id', 'ASC')-
                                                 <a
                                                     href="{{ route('sub_category.show', ['slug_sub_category' => $sub_category->slug]) }}">{{ $sub_category->name}}</a>
                                                 <div class="lvl_menu_2">
-                                                    <ul class="head-col-all head-column-4">
+                                                    <ul class="head-col-all  @if (count($sub_category->brands) > 20) head-column-4 @elseif(count($sub_category->brands) > 10) head-column-2 @else head-column-1 @endif">
 
                                                         @foreach ($sub_category->brands as $brand)
                                                         <li><a
@@ -198,40 +201,11 @@ $categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('id', 'ASC')-
                 </div>
             </div>
 
-            <meta itemprop="headline" content="ASC-Service — сервисный центр в Москве">
+            <meta itemprop="headline" content="JService — сервисный центр в Москве">
             <meta itemprop="description"
                 content="АСЦ — Срочный ремонт техники в Москве с бесплатной диагностикой  ✅ Гарантия до 3 лет. ✅ Получите скидку 25% при первом обращении!">
             <meta itemprop="keywords" content="ASC-Рем-Сервис, Сервис центр по срочному ремонту">
-            <script type="application/ld+json">
-            {
-                "@context": "http://www.schema.org",
-                "@type": "ProfessionalService",
-                "name": "ASC-Service — сервисный центр в Москве",
-                "url": "https://asc-rem.ru",
-                "logo": "https://asc-rem.ru/public/img/logo-asc.svg",
-                "description": "Ремонт техники в авторизованном сервисном центре - ASC-Service, с выездом на дом или офис в Москве. Гарантия до 3 лет на все виды работ.",
-                "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Гарибальди, 36",
-                    "addressLocality": "Москва",
-                    "addressRegion": "",
-                    "postalCode": "117418",
-                    "addressCountry": "Russia"
-                },
-                "geo": {
-                    "@type": "GeoCoordinates",
-                    "latitude": "55.668447",
-                    "longitude": "37.559856"
-                },
-                "hasMap": "https://www.google.com/maps/search/?api=1&query=55.668447,37.559856",
-                "openingHours": "Mo, Tu, We, Th, Fr, Sa, Su 09:00-21:00",
-                "contactPoint": {
-                    "@type": "ContactPoint",
-                    "telephone": "+74951625317",
-                    "contactType": "Основной"
-                }
-            }
-            </script>
+
         </header>
         @yield('content')
 

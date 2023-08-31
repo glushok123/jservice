@@ -20,11 +20,11 @@
 			<section class="mpBlock">
 				<div class="container flex">
 					<div class="lp-block">
-						<h1 class="mpBlock-title">Ремонт цифровой техники в Москве</h1>
+						<h1 class="mpBlock-title color-white">Ремонт цифровой техники в Москве</h1>
 						<ul class="title-list">
-							<li class="mpBlock-p"><img src="images/yes.png" alt>Ремонт устройств от 350 рублей;</li>
-							<li class="mpBlock-p"><img src="images/yes.png" alt>Бесплатная диагностика;</li>
-							<li class="mpBlock-p"><img src="images/yes.png" alt>Гарантия - до 3-х лет;</li>
+							<li class="mpBlock-p "><img src="images/yes.png" alt>Ремонт от 500р.</li>
+							<li class="mpBlock-p"><img src="images/yes.png" alt>Бесплатный забор вашей техники.</li>
+							<li class="mpBlock-p"><img src="images/yes.png" alt>Гарантия от 6 месяцев.</li>
 						</ul>
 						<form>
 							<input type="hidden" name="form_name" value="Форма на главном экране сайта">
@@ -45,35 +45,7 @@
 			</section>
 
 			<span class="order-block-section">
-				<section class="advsSection">
-					<div class="container">
 
-
-						<div class="mainAdvs flex">
-							<div class="mainAdvs-item">
-								<div class="maTitle">Удобное расположение в центре города</div>
-								<div class="maCount">1</div>
-								<img src="images/ad-1.png" class="maImg">
-							</div>
-							<div class="mainAdvs-item">
-								<div class="maTitle">Бесплатная диагностика вашего устройства</div>
-								<div class="maCount">2</div>
-								<img src="images/ad-2.png" class="maImg">
-							</div>
-							<div class="mainAdvs-item">
-								<div class="maTitle">Только качественные детали и запчасти</div>
-								<div class="maCount">3</div>
-								<img src="images/ad-3.png" class="maImg">
-							</div>
-							<div class="mainAdvs-item">
-								<div class="maTitle">Выгодный ремонт с гарантией</div>
-								<div class="maCount">4</div>
-								<img src="images/ad-4.png" class="maImg">
-							</div>
-						</div>
-
-					</div>
-				</section>
 
 				<section class="productCategories-section">
 					<div class="container">
@@ -92,6 +64,37 @@
 						</div>
 						<a class="moreCats show-more-cat">Больше категорий</a>
 					</div>
+				</section>
+
+				<section class="advsSection">
+					<div class="container">
+
+
+						<div class="mainAdvs flex">
+							<div class="mainAdvs-item">
+								<div class="maTitle color-white">Удобное расположение в центре города</div>
+								<div class="maCount">1</div>
+								<img src="images/ad-1.png" class="maImg">
+							</div>
+							<div class="mainAdvs-item">
+								<div class="maTitle color-white">Бесплатная диагностика вашего устройства</div>
+								<div class="maCount">2</div>
+								<img src="images/ad-2.png" class="maImg">
+							</div>
+							<div class="mainAdvs-item">
+								<div class="maTitle color-white">Только качественные детали и запчасти</div>
+								<div class="maCount">3</div>
+								<img src="images/ad-3.png" class="maImg">
+							</div>
+							<div class="mainAdvs-item">
+								<div class="maTitle color-white">Выгодный ремонт с гарантией</div>
+								<div class="maCount">4</div>
+								<img src="images/ad-4.png" class="maImg">
+							</div>
+						</div>
+
+					</div>
+					<br><br>
 				</section>
 			</span>
 			<section class="saleForm-section">
@@ -128,7 +131,7 @@
 							квалификацию, проходят обучение и переобучение. Мы имеем все возможности для того, чтобы
 							выполнять оперативный высококлассный ремонт. Мастера, на счету которых сотни успешно
 							отремонтированных устройств, строго придерживаются корпоративной культуры ремонта.</p>
-						<p class="paragraph">ASC Service - это, в первую очередь, команда отлично знающих своё дело
+						<p class="paragraph">JService - это, в первую очередь, команда отлично знающих своё дело
 							специалистов. Все они имеют высшее образование, обширный практический опыт, теоретические
 							знания. Сегодня им под силу справиться с задачами любой сложности, любой направленности и
 							любой специфики.</p>
@@ -216,7 +219,7 @@
 									</div>
 								</div>
 								<div class="reviewContent">
-									<p>Всем привет, хочу выразить благодарность ASC сервису за оперативный ремонт моего
+									<p>Всем привет, хочу выразить благодарность сервису за оперативный ремонт моего
 										моноблока. Починили оперативно за адекватную сумму, за что большое спасибо.</p>
 								</div>
 							</div>

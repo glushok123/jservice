@@ -813,7 +813,7 @@ textarea {
 }
 
 .primary-button {
-    background: linear-gradient(244deg, #029ab2 0, #152330 100%);
+    background: linear-gradient(244deg, #22456d 0, rgb(4,111,172) 100%);
     border-radius: 100px;
     color: #fff;
     border: 0;
@@ -1102,7 +1102,7 @@ textarea {
 
 .mpBlock {
     padding-top: 68px;
-    background-image: linear-gradient(to top, #b721ff0d 0, #e9fbff 100%);
+    background-image: linear-gradient(to top, #ffffff0d 0, #71a7c7 100%);
     position: relative;
     overflow: hidden
 }
@@ -1139,7 +1139,7 @@ textarea {
 }
 
 input.msSubmit {
-    background: linear-gradient(244deg, #029ab2 0, #152330 100%);;
+    background: linear-gradient(244deg, #22456d 0, rgb(4,111,172) 100%);;;
     border: 0;
     border-radius: 100px;
     color: #fff;
@@ -1221,7 +1221,7 @@ input.msSubmit:hover {
 }
 
 .mainAdvs-item {
-    background-image: linear-gradient(0deg, #fff4f4, #eaedff85);
+    background-image:   linear-gradient(to top, #ffffff0d 0, #71a7c7 100%);;;;
     padding: 27px 28px 111px 28px;
     position: relative;
     overflow: hidden;
@@ -1420,7 +1420,7 @@ input.msSubmit:hover {
 }
 
 .getConsult {
-    background: linear-gradient(244deg, #029ab2 0, #152330 100%);;
+    background: linear-gradient(244deg, #22456d 0, rgb(4,111,172) 100%);;;
     border: 0;
     border-radius: 100px;
     color: #fff;
@@ -1545,7 +1545,7 @@ input.msSubmit:hover {
 }
 
 .adsList-ul li {
-    background: linear-gradient(34deg, #84c9fe 0, #b167fe 100%);
+    background:   linear-gradient(to top, #ffffff0d 0, #71a7c7 100%);;;;;
     padding: 30px 28px 133px 23px;
     border-radius: 10px;
     position: relative;
@@ -1842,7 +1842,7 @@ input.msSubmit:hover {
 }
 
 .prod-breads a:hover span {
-    color: #8759fe
+    color: #191970
 }
 
 .woocommerce-review-link {
@@ -1909,7 +1909,7 @@ input.msSubmit:hover {
 }
 
 .footer-col .menu li a:hover {
-    color: #948afd
+    color: blue
 }
 
 .cbModal .modal__cross {
@@ -2132,7 +2132,7 @@ input.mSubmit {
     height: 58px;
     border-radius: 110px;
     border: 0;
-    background-image: linear-gradient(244deg, #029ab2 0, #152330 100%);;
+    background-image: linear-gradient(244deg, #22456d 0, rgb(4,111,172) 100%);;;
     color: #fff;
     cursor: pointer
 }
@@ -2375,7 +2375,7 @@ li.menu-item-260776 img {
 
 .salesWrapper .articleItem {
     width: 32%;
-    background-image: linear-gradient(to top, #fef4f3 15%, #edf0ff);
+    background-image:   linear-gradient(to top, #ffffff0d 0, #71a7c7 100%);;;;
     border-radius: 16px;
     padding: 72px 100px 225px 40px;
     position: relative;
@@ -2586,7 +2586,7 @@ p.woocommerce-mini-cart__buttons a.button {
 }
 
 .blogPage article .post-thumbnail {
-    background-image: linear-gradient(to top, #fef4f3 15%, #edf0ff);
+    background-image:   linear-gradient(to top, #ffffff0d 0, #71a7c7 100%);;;;
     border-radius: 18px;
     width: 29%;
     margin-top: 0
@@ -3166,7 +3166,7 @@ div#review_form p.stars {
 
 .catalog-heading {
     background-color: #f5f5f5;
-    background-image: linear-gradient(to top, #b721ff0d 0, #e9fbff 100%);
+    background-image:   linear-gradient(to top, #ffffff0d 0, #71a7c7 100%);;;;
     padding: 38px 40px 55px 60px;
     border-radius: 20px;
     position: relative;
@@ -3340,7 +3340,7 @@ div#review_form p.stars {
     margin-bottom: 29px;
     border: 1px solid #f7f7f7;
     border-radius: 6px;
-    background-image: linear-gradient(0deg, #fff4f4, #eaedff85);
+    background-image:   linear-gradient(to top, #ffffff0d 0, #71a7c7 100%);;;;
     overflow: hidden
 }
 
@@ -3448,7 +3448,7 @@ div#review_form p.stars {
 }
 
 .get-table {
-    background: linear-gradient(244deg, #029ab2 0, #152330 100%);;
+    background: linear-gradient(244deg, #22456d 0, rgb(4,111,172) 100%);;;
     border: 0;
     border-radius: 100px;
     color: #fff;
@@ -3481,7 +3481,7 @@ div#review_form p.stars {
 }
 
 .priceRow__cb {
-    background: linear-gradient(244deg, #029ab2 0, #152330 100%);
+    background: linear-gradient(244deg, #22456d 0, rgb(4,111,172) 100%);;
     padding: 0 65px;
     border-radius: 130px;
     border: 0;
@@ -3684,7 +3684,7 @@ figure.gallery-item img {
 .scroll-top {
     width: 58px;
     height: 58px;
-    background-image: linear-gradient(244deg, #029ab2 0, #152330 100%);
+    background-image: linear-gradient(244deg, #22456d 0, rgb(4,111,172) 100%);;
     opacity: .31;
     border-radius: 230px;
     position: fixed;
@@ -3783,7 +3783,7 @@ figure.gallery-item img {
 }
 
 .privacy__text a {
-    color: #ab6fff
+    color: blue
 }
 
 .breadcrumbs .breadcrumb {
@@ -3846,7 +3846,7 @@ figure.gallery-item img {
 .about-infographic__item {
     width: 48%;
     height: 220px;
-    background: linear-gradient(34deg, #84c9fe 0, #b167fe 100%);
+    background:   linear-gradient(to top, #ffffff0d 0, #71a7c7 100%);;;;;
     padding: 45px 38px 35px 23px;
     border-radius: 10px;
     position: relative;
@@ -4727,7 +4727,7 @@ a.malfunction:hover {
 
 .line {
     padding: 4px 24px;
-    border: 1px solid var(--violet);
+    border: 1px solid blue;
     border-radius: 100px;
     font-weight: 600;
     cursor: pointer;
@@ -4739,7 +4739,7 @@ a.malfunction:hover {
 }
 
 .line:hover {
-    background-color: var(--violet);
+    background-color: blue;
     color: white;
     transition: 0.2s ease-in-out;
 }

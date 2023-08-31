@@ -26,6 +26,7 @@ class RepairCategory extends Model
         'seo_title',
         'seo_description',
         'seo_keywords',
+        'sort',
         'active',
     ];
 

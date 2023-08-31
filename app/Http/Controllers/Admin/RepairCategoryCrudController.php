@@ -61,6 +61,11 @@ class RepairCategoryCrudController extends CrudController
         ]);
 
         CRUD::addColumn([
+            'name' => 'sort', 
+            'label' => 'Сортировка'
+        ]);
+
+        CRUD::addColumn([
             'name' => 'image', 
             'label' => 'картинка',
             'type' => 'image',
@@ -87,6 +92,11 @@ class RepairCategoryCrudController extends CrudController
         CRUD::setValidation(RepairCategoryRequest::class);
 
         CRUD::addField([
+            'name' => 'sort', 
+            'label' => 'Сортировка'
+        ]);
+
+        CRUD::addField([
             'name' => 'name', 
             'label' => 'Название'
         ]);
@@ -95,6 +105,8 @@ class RepairCategoryCrudController extends CrudController
             'name' => 'title', 
             'label' => 'Заголовок'
         ]);
+    
+
 
         CRUD::addField([
             'name' => 'slug', 

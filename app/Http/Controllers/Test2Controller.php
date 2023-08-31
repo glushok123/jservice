@@ -19,58 +19,77 @@ class Test2Controller extends Controller
 {
     public $array = array(
         array(
-            'MSI',
-            '/remont-videokart/msi'
+            'HP',
+            '/remont-serverov/hp'
         ),
         array(
-            'Xiaomi',
-            '/remont-videokart/xiaomi'
-        ),
-        array(
-            'Sapphire',
-            '/remont-videokart/sapphire'
-        ),
-        array(
-            'Asus',
-            '/remont-videokart/asus'
-        ),
-        array(
-            'AMD',
-            '/remont-videokart/amd'
-        ),
-        array(
-            'Nvidia',
-            '/remont-videokart/nvidia'
-        ),
-        array(
-            'Evga',
-            '/remont-videokart/evga'
-        ),
-        array(
-            'Getac',
-            '/remont-videokart/getac'
-        ),
-        array(
-            'GeForce',
-            '/remont-videokart/geforce'
-        ),
-        array(
-            'Gigabyte',
-            '/remont-videokart/gigabyte'
+            'Huawei',
+            '/remont-serverov/huawei'
         ),
         array(
             'Lenovo',
-            '/remont-videokart/lenovo'
+            '/remont-serverov/lenovo'
         ),
         array(
-            'Intel',
-            '/remont-videokart/intel'
+            'Dell',
+            '/remont-serverov/dell'
+        ),
+        array(
+            'Fujitsu',
+            '/remont-serverov/fujitsu'
+        ),
+        array(
+            'Sitronics',
+            '/remont-serverov/sitronics'
+        ),
+        array(
+            'HPE',
+            '/remont-serverov/hpe'
+        ),
+        array(
+            '﻿Karma',
+            '/remont-serverov/karma'
+        ),
+        array(
+            '﻿Qtech',
+            '/remont-serverov/qtech'
+        ),
+        array(
+            'Xfusion',
+            '/remont-serverov/xfusion'
+        ),
+        array(
+            'Yadro',
+            '/remont-serverov/yadro'
+        ),
+        array(
+            'Рикор',
+            '/remont-serverov/rikor'
+        ),
+        array(
+            'Sugon',
+            '/remont-serverov/sugon'
+        ),
+        array(
+            'Cisco',
+            '/remont-serverov/cisco'
+        ),
+        array(
+            'Oracle',
+            '/remont-serverov/oracle'
+        ),
+        array(
+            'IBM System',
+            '/remont-serverov/ibm-system'
+        ),
+        array(
+            'FusionServer',
+            '/remont-serverov/fusionserver'
         )
     );
 
     public function test2()
     {
-        dd('STOP');
         ini_set('post_max_size', '5000M');         // Максимальный размер данных 
         ini_set('upload_max_filesize', '100M');    // Максимальный размер файлов
         ini_set('max_execution_time', '600000');   // Максимальное время выполнения скрипта
@@ -78,21 +97,31 @@ class Test2Controller extends Controller
         ini_set('memory_limit', '16000M');         // Максимальное значение оперативки
 
         foreach ($this->array as $i) {
+            if (!empty(RepairBrand::where('name', $i[0])->first())){
+                continue;
+            }
+
+            print_r($i);
             $dom = new Dom;
             $dom->loadFromUrl('https://asc-rem.ru' . $i[1]);
             $blockImage = $dom->find('.catalog-picture')[0];
             $imagePatch = $blockImage->find('img')[0]->tag->src['value'];
 
-            $imageBrand = file_get_contents("https://asc-rem.ru" . $imagePatch);
-            $ext = substr(strrchr($imagePatch, '.'), 1);
-            $filename = uniqid();
-            file_put_contents(public_path('images/upload/' . $filename . '.' . $ext), $imageBrand);
-
             $brand = new RepairBrand();
+
+            if (!empty($imagePatch)) {
+                $imageBrand = file_get_contents("https://asc-rem.ru" . $imagePatch);
+                $ext = substr(strrchr($imagePatch, '.'), 1);
+                $filename = uniqid();
+                file_put_contents(public_path('images/upload/' . $filename . '.' . $ext), $imageBrand);
+                $brand->image = $filename . '.' . $ext;
+            }else {
+                $brand->image = ' ';
+            }
+
             $brand->name = $i[0];
             $brand->title = 'Ремонт ' . $i[0];
-            $brand->sub_category_id = 29;
-            $brand->image = $filename . '.' . $ext;
+            $brand->sub_category_id = 27;
             $brand->save();
         }
  

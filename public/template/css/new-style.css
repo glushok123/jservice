@@ -267,7 +267,7 @@ form [type='submit'].yes {
     position: relative;
     z-index: 10;
     padding: 25px 25px 60px 25px;
-    background: linear-gradient(244deg, #b721ff 0%, #21d4fd 100%);
+    background: linear-gradient(244deg, #22456d 0, rgb(4,111,172) 100%);;
 }
 
 .newsCard a {
@@ -2447,7 +2447,7 @@ body {
 }
 
 .btn-zapis {
-    background: linear-gradient(244deg, #029ab2 0, #152330 100%);;
+    background: linear-gradient(244deg, #22456d 0, rgb(4,111,172) 100%);;;
     border: 0;
     border-radius: 100px;
     color: #fff;
@@ -3091,10 +3091,6 @@ body {
 }
 
 
-
-
-
-
 @media (min-width: 1000px) {
     .archiveWrapper {
         padding-top: 10px;
@@ -3107,7 +3103,7 @@ body {
 
     .ruble svg circle,
     .ruble svg path {
-        stroke: var(--violet);
+        /*stroke: var(--violet);*/
     }
 
     .offer-part__text p {
@@ -3206,7 +3202,7 @@ body {
     font-size: 30px;
     font-weight: 600;
     width: 100%;
-    background: linear-gradient(244deg, #029ab2 0, #152330 100%);
+    background: linear-gradient(244deg, #22456d 0, rgb(4,111,172) 100%);;
     color: white;
     text-align: center;
     padding: 6px;

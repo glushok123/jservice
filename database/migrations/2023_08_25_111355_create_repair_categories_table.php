@@ -24,6 +24,8 @@ class CreateRepairCategoriesTable extends Migration
             $table->string('min_time', 255)->nullable();
             $table->text('description')->nullable();
 
+            $table->string('sort', 255)->nullable();
+
             $table->string('seo_title', 255)->nullable();
             $table->text('seo_description')->nullable();
             $table->text('seo_keywords')->nullable();
