@@ -144,8 +144,8 @@ $categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('sort', 'ASC'
                             <a id="header__pc_phone" class="phone-trigger p-trigger" href="tel:+79091636457"
                                 data-phone="2">8 (909) 163-64-57</a>
                             <a id="header__mob_phone" class="catalogModal js-open-modal button-puls primary-button"
-                                href="tel:+79678051785">
-                                8 (967) 805-17-85
+                                href="tel:+79091636457">
+                                8 (909) 163-64-57
                                 <span class="shine"></span>
                             </a>
                         </div>
