@@ -29,7 +29,7 @@ class TestController extends Controller
         $nameCategory = 'Ремонт компьютерной техники';
 
         $dom = new Dom;
-        $dom->loadFromUrl('https://asc-rem.ru/remont-kompyuternoy-tehniki');
+        $dom->loadFromUrl('https://jservces.ru/remont-kompyuternoy-tehniki');
 
         $seo_title = trim($dom->find('title')[0]->innerHtml);
         $seo_title = str_replace('ASC', 'JSERVICE', $seo_title);
@@ -42,7 +42,7 @@ class TestController extends Controller
         $desc = trim($this->getDesc($dom)->innerHtml);
         $imgSrc = $this->getImg($dom);
 
-        $imageCategory = file_get_contents("https://asc-rem.ru/" . $imgSrc);
+        $imageCategory = file_get_contents("https://jservces.ru/" . $imgSrc);
         $ext = substr(strrchr($imgSrc, '.'), 1);
         $filename = uniqid();
         file_put_contents(public_path('images/upload/' . $filename . '.' . $ext), $imageCategory);
@@ -73,7 +73,7 @@ class TestController extends Controller
         $category->save();
 
         foreach ($reviews as $item) {
-            $image= file_get_contents("https://asc-rem.ru" . $item['src']);
+            $image= file_get_contents("https://jservces.ru" . $item['src']);
             $ext = substr(strrchr($item['src'], '.'), 1);
             $filename = uniqid();
             file_put_contents(public_path('images/upload/' . $filename . '.' . $ext), $image);
@@ -107,12 +107,12 @@ class TestController extends Controller
                     break;
             }
 
-            $imageSmall = file_get_contents("https://asc-rem.ru" . $arrSubCategory[$key]['small_img_src']);
+            $imageSmall = file_get_contents("https://jservces.ru" . $arrSubCategory[$key]['small_img_src']);
             $extImageSmall = substr(strrchr($arrSubCategory[$key]['small_img_src'], '.'), 1);
             $filenameImageSmall = uniqid();
             file_put_contents(public_path('images/upload/' . $filenameImageSmall . '.' . $extImageSmall), $imageSmall);
 
-            $imageFull = file_get_contents("https://asc-rem.ru" . $arrSubCategory[$key]['full_img_src']);
+            $imageFull = file_get_contents("https://jservces.ru" . $arrSubCategory[$key]['full_img_src']);
             $extImageFull = substr(strrchr($arrSubCategory[$key]['full_img_src'], '.'), 1);
             $filenameImageFull = uniqid();
             file_put_contents(public_path('images/upload/' . $filenameImageFull . '.' . $extImageFull), $imageFull);
@@ -159,7 +159,7 @@ class TestController extends Controller
             }
 
             foreach($arrSubCategory[$key]['photogallery'] as $s) {
-                $image = file_get_contents("https://asc-rem.ru" . $s);
+                $image = file_get_contents("https://jservces.ru" . $s);
                 $ext = substr(strrchr($s, '.'), 1);
                 $filename = uniqid();
                 file_put_contents(public_path('images/upload/' . $filename . '.' . $ext), $image);
@@ -171,7 +171,7 @@ class TestController extends Controller
             }
 
             foreach ($arrSubCategory[$key]['reviews'] as $item) {
-                $image= file_get_contents("https://asc-rem.ru" . $item['src']);
+                $image= file_get_contents("https://jservces.ru" . $item['src']);
                 $ext = substr(strrchr($item['src'], '.'), 1);
                 $filename = uniqid();
                 file_put_contents(public_path('images/upload/' . $filename . '.' . $ext), $image);
@@ -289,7 +289,7 @@ class TestController extends Controller
                 $src = $src->find('a')[0]->tag->href['value'];
 
                 $dom2 = new Dom;
-                $dom2->loadFromUrl('https://asc-rem.ru' . $src);
+                $dom2->loadFromUrl('https://jservces.ru' . $src);
 
                 $desc = $dom2->find('.catalog-heading')[0];
                 $desc = $desc->find('.col-md-6')[0]->innerHtml;
@@ -386,7 +386,7 @@ class TestController extends Controller
     {
         foreach($arrSubCategory as $key => $value) {
             $dom = new Dom;
-            $dom->loadFromUrl('https://asc-rem.ru' . $arrSubCategory[$key]['src']);
+            $dom->loadFromUrl('https://jservces.ru' . $arrSubCategory[$key]['src']);
             $price = $this->getPrice($dom)->innerHtml;
             $time = $this->getTime($dom)->innerHtml;
             $desc = $this->getDesc($dom)->innerHtml;

@@ -27,7 +27,7 @@
     <meta property="og:image:width" content="679">
     <meta property="og:image:height" content="386">
     <meta property="og:image:alt" content="Специализированный сервисный центр по ремонту и диагностике любой техники">
-	<meta name="yandex-verification" content="36467b293afb8d2c" />
+    <meta name="yandex-verification" content="36467b293afb8d2c" />
     <meta name="yandex-verification" content="433a1c48ea310135" />
 
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -54,7 +54,8 @@
 .breadcrumb {
     margin-bottom: 0px;
 }
-.color-white{
+
+.color-white {
     /*color: white;*/
 }
 </style>
@@ -67,14 +68,17 @@ $categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('sort', 'ASC'
 
 <body class='wp-custom-logo home'>
     <div class="ya-site-form ya-site-form_inited_no"
-	    data-bem="{&quot;action&quot;:&quot;https://jservces.ru/search&quot;,&quot;arrow&quot;:false,&quot;bg&quot;:&quot;transparent&quot;,&quot;fontsize&quot;:12,&quot;fg&quot;:&quot;#000000&quot;,&quot;language&quot;:&quot;ru&quot;,&quot;logo&quot;:&quot;rb&quot;,&quot;publicname&quot;:&quot;Поиск по https://jservces.ru/&quot;,&quot;suggest&quot;:true,&quot;target&quot;:&quot;_self&quot;,&quot;tld&quot;:&quot;ru&quot;,&quot;type&quot;:2,&quot;usebigdictionary&quot;:true,&quot;searchid&quot;:3224633,&quot;input_fg&quot;:&quot;#000000&quot;,&quot;input_bg&quot;:&quot;#ffffff&quot;,&quot;input_fontStyle&quot;:&quot;normal&quot;,&quot;input_fontWeight&quot;:&quot;normal&quot;,&quot;input_placeholder&quot;:null,&quot;input_placeholderColor&quot;:&quot;#000000&quot;,&quot;input_borderColor&quot;:&quot;#7f9db9&quot;}">
+        data-bem="{&quot;action&quot;:&quot;https://jservces.ru/search&quot;,&quot;arrow&quot;:false,&quot;bg&quot;:&quot;transparent&quot;,&quot;fontsize&quot;:12,&quot;fg&quot;:&quot;#000000&quot;,&quot;language&quot;:&quot;ru&quot;,&quot;logo&quot;:&quot;rb&quot;,&quot;publicname&quot;:&quot;Поиск по https://jservces.ru/&quot;,&quot;suggest&quot;:true,&quot;target&quot;:&quot;_self&quot;,&quot;tld&quot;:&quot;ru&quot;,&quot;type&quot;:2,&quot;usebigdictionary&quot;:true,&quot;searchid&quot;:3224633,&quot;input_fg&quot;:&quot;#000000&quot;,&quot;input_bg&quot;:&quot;#ffffff&quot;,&quot;input_fontStyle&quot;:&quot;normal&quot;,&quot;input_fontWeight&quot;:&quot;normal&quot;,&quot;input_placeholder&quot;:null,&quot;input_placeholderColor&quot;:&quot;#000000&quot;,&quot;input_borderColor&quot;:&quot;#7f9db9&quot;}">
     </div>
+    <script type="text/javascript">
+(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1){e.className+=' ya-page_js_yes';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');
+</script>
     <div id="page" class="site">
         <header id="main-header" class="site-header" itemscope itemtype="http://schema.org/WPHeader">
             <div class="container positionCustom">
                 <div class="topHeader">
                     <div class="menu-mainmenu-container">
-                        <nav itemscope itemtype="https://schema.org/SiteNavigationElement">
+                        <nav itemscope itemtype="https://schema.org/SiteNavigationElement"></nav>
                             <ul id="menu-mainmenu" class="menu">
                                 <li id="menu-item-16" class="menu-item menu-item-16" itemprop="name">
                                     <a itemprop="url" href="/varranty">Гарантия сервиса</a>
@@ -119,10 +123,10 @@ $categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('sort', 'ASC'
                         </button>
 
                         <div class="search-form" id="searchform" itemscope itemtype="https://schema.org/WebSite">
-                            <meta itemprop="url" content="https://asc-rem.ru">
+                            <meta itemprop="url" content="https://jservces.ru/">
                             <form class="search-form custom-search" id="searchform" itemprop="potentialAction" itemscope
                                 itemtype="https://schema.org/SearchAction">
-                                <meta itemprop="target" content="https://asc-rem.ru/search/?s={s}">
+                                <meta itemprop="target" content="https://jservces.ru//search/?s={s}">
                                 <input type="hidden" name="searchid">
                                 <input type="text" name="text" class="search-form__input" placeholder="Поиск по сайту.."
                                     autocomplete="off" itemprop="query-input">
@@ -135,7 +139,17 @@ $categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('sort', 'ASC'
                     </div>
                     <div class="contactPart-header">
                         <div class="adressHeader">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" style="margin-right:10px;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#436193}</style><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"
+                                style="margin-right:10px;">
+                                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <style>
+                                svg {
+                                    fill: #436193
+                                }
+                                </style>
+                                <path
+                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                            </svg>
                             <div>
                                 <div class="adressCity">г. Москва</div>
                                 <div class="adressStrt">Шверника, 1к1</div>
@@ -179,7 +193,8 @@ $categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('sort', 'ASC'
                                                 <a
                                                     href="{{ route('sub_category.show', ['slug_sub_category' => $sub_category->slug]) }}">{{ $sub_category->name}}</a>
                                                 <div class="lvl_menu_2">
-                                                    <ul class="head-col-all  @if (count($sub_category->brands) > 20) head-column-4 @elseif(count($sub_category->brands) > 10) head-column-2 @else head-column-1 @endif">
+                                                    <ul
+                                                        class="head-col-all  @if (count($sub_category->brands) > 20) head-column-4 @elseif(count($sub_category->brands) > 10) head-column-2 @else head-column-1 @endif">
 
                                                         @foreach ($sub_category->brands as $brand)
                                                         <li><a

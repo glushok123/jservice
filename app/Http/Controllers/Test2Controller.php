@@ -103,14 +103,14 @@ class Test2Controller extends Controller
 
             print_r($i);
             $dom = new Dom;
-            $dom->loadFromUrl('https://asc-rem.ru' . $i[1]);
+            $dom->loadFromUrl('https://jservces.ru' . $i[1]);
             $blockImage = $dom->find('.catalog-picture')[0];
             $imagePatch = $blockImage->find('img')[0]->tag->src['value'];
 
             $brand = new RepairBrand();
 
             if (!empty($imagePatch)) {
-                $imageBrand = file_get_contents("https://asc-rem.ru" . $imagePatch);
+                $imageBrand = file_get_contents("https://jservces.ru" . $imagePatch);
                 $ext = substr(strrchr($imagePatch, '.'), 1);
                 $filename = uniqid();
                 file_put_contents(public_path('images/upload/' . $filename . '.' . $ext), $imageBrand);

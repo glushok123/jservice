@@ -22,58 +22,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<meta name="robots" content="noindex, nofollow"><!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(91319487, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/91319487" style="position:absolute; left:-9999px;" alt></div></noscript>
-<!-- /Yandex.Metrika counter --><meta name="yandex-verification" content="df6fceb706bc4082"><script src="../js/rrweb.min.js"></script>
-<script type="text/javascript">
-        let events = [];
-        rrweb.record({
-            emit(event) {
-                events.push(event);
-            },
-        });
-        function save() {
-            const body = JSON.stringify({ events });
-            events = [];
-            fetch('/_record_events', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body,
-            });
-    }
-    setInterval(save, 2000);
-</script>
-	<!-- ****** -->
-					
-		<!-- ****** -->
 
-	<meta name="google-site-verification" content="-aF1W2Px_O3PDFC3uLEYG_1ZJX_AKiy8Ou4VwC23I8M">
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0BFC2XWR8E"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
 
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
 
-		gtag('config', 'G-0BFC2XWR8E');
-	</script>
+	
+
 
 	<link rel="icon" href="62b9b1210b8b6-ef7bd8c3d3ce7de5a41fd332b926f146.svg">
 	<link rel="stylesheet" href="../css/style.min.css"><link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" href="../css/swiper-bundle.min.css"><link rel="stylesheet" href="../css/media.css"><link rel="stylesheet" href="../css/adaptive.css"><link rel="stylesheet" href="../css/new-style.css">
@@ -85,7 +39,7 @@
 	<div id="page" class="site">
 		
 <!-- Код для получения ключа от яндекс чтобы работал поиск -->
-<div class="ya-site-form ya-site-form_inited_no" data-bem="{&quot;action&quot;:&quot;https://asc-rem.ru/search&quot;,&quot;arrow&quot;:false,&quot;bg&quot;:&quot;transparent&quot;,&quot;fontsize&quot;:14,&quot;fg&quot;:&quot;#000000&quot;,&quot;language&quot;:&quot;ru&quot;,&quot;logo&quot;:&quot;rb&quot;,&quot;publicname&quot;:&quot;Поиск по asc-rem.ru&quot;,&quot;suggest&quot;:true,&quot;target&quot;:&quot;_self&quot;,&quot;tld&quot;:&quot;ru&quot;,&quot;type&quot;:3,&quot;usebigdictionary&quot;:false,&quot;searchid&quot;:2737255,&quot;input_fg&quot;:&quot;#000000&quot;,&quot;input_bg&quot;:&quot;#f2f3f5&quot;,&quot;input_fontStyle&quot;:&quot;normal&quot;,&quot;input_fontWeight&quot;:&quot;normal&quot;,&quot;input_placeholder&quot;:&quot;Поиск по сайту..&quot;,&quot;input_placeholderColor&quot;:&quot;#000000&quot;,&quot;input_borderColor&quot;:&quot;#7f9db9&quot;}">
+<div class="ya-site-form ya-site-form_inited_no" data-bem="{&quot;action&quot;:&quot;https://jservces.ru/search&quot;,&quot;arrow&quot;:false,&quot;bg&quot;:&quot;transparent&quot;,&quot;fontsize&quot;:12,&quot;fg&quot;:&quot;#000000&quot;,&quot;language&quot;:&quot;ru&quot;,&quot;logo&quot;:&quot;rb&quot;,&quot;publicname&quot;:&quot;Поиск по https://jservces.ru/&quot;,&quot;suggest&quot;:true,&quot;target&quot;:&quot;_self&quot;,&quot;tld&quot;:&quot;ru&quot;,&quot;type&quot;:2,&quot;usebigdictionary&quot;:true,&quot;searchid&quot;:3224633,&quot;input_fg&quot;:&quot;#000000&quot;,&quot;input_bg&quot;:&quot;#ffffff&quot;,&quot;input_fontStyle&quot;:&quot;normal&quot;,&quot;input_fontWeight&quot;:&quot;normal&quot;,&quot;input_placeholder&quot;:null,&quot;input_placeholderColor&quot;:&quot;#000000&quot;,&quot;input_borderColor&quot;:&quot;#7f9db9&quot;}">
 </div>
 <script type="text/javascript">
 	(function(w, d, c) {
@@ -116,32 +70,32 @@
 				<span>Укажите свой город</span>
 				<input class="search-input price-search" placeholder="Введите название города..">
 				<div class="scroll-city-list">
-											<a href="https://ufa.asc-rem.ru">Уфа</a>
-											<a href="https://vrn.asc-rem.ru">Воронеж</a>
-											<a href="https://krn.asc-rem.ru">Красноярск</a>
-											<a href="https://prm.asc-rem.ru">Пермь</a>
-											<a href="https://irk.asc-rem.ru">Иркутск</a>
-											<a href="https://tmn.asc-rem.ru">Тюмень</a>
-											<a href="https://tms.asc-rem.ru">Томск</a>
-											<a href="https://hbr.asc-rem.ru">Хабаровск</a>
-											<a href="https://srt.asc-rem.ru">Саратов</a>
-											<a href="https://yrs.asc-rem.ru">Ярославль</a>
-											<a href="https://tol.asc-rem.ru">Тольятти</a>
-											<a href="https://izh.asc-rem.ru">Ижевск</a>
-											<a href="https://brn.asc-rem.ru">Барнаул</a>
-											<a href="https://uly.asc-rem.ru">Ульяновск</a>
-											<a href="https://vlg.asc-rem.ru">Волгоград</a>
-											<a href="https://smr.asc-rem.ru">Самара</a>
-											<a href="https://kzn.asc-rem.ru">Казань</a>
-											<a href="https://oms.asc-rem.ru">Омск</a>
-											<a href="https://ekb.asc-rem.ru">Екатеринбург</a>
-											<a href="https://krd.asc-rem.ru">Краснодар</a>
-											<a href="https://nnv.asc-rem.ru">Нижний Новгород</a>
-											<a href="https://nsk.asc-rem.ru">Новосибирск</a>
-											<a href="https://rnd.asc-rem.ru">Ростов-на-Дону</a>
-											<a href="https://spb.asc-rem.ru">Санкт-Петербург</a>
-											<a href="https://chl.asc-rem.ru">Челябинск</a>
-											<a href="https://kir.asc-rem.ru">Киров</a>
+											<a href="https://ufa.jservces.ru">Уфа</a>
+											<a href="https://vrn.jservces.ru">Воронеж</a>
+											<a href="https://krn.jservces.ru">Красноярск</a>
+											<a href="https://prm.jservces.ru">Пермь</a>
+											<a href="https://irk.jservces.ru">Иркутск</a>
+											<a href="https://tmn.jservces.ru">Тюмень</a>
+											<a href="https://tms.jservces.ru">Томск</a>
+											<a href="https://hbr.jservces.ru">Хабаровск</a>
+											<a href="https://srt.jservces.ru">Саратов</a>
+											<a href="https://yrs.jservces.ru">Ярославль</a>
+											<a href="https://tol.jservces.ru">Тольятти</a>
+											<a href="https://izh.jservces.ru">Ижевск</a>
+											<a href="https://brn.jservces.ru">Барнаул</a>
+											<a href="https://uly.jservces.ru">Ульяновск</a>
+											<a href="https://vlg.jservces.ru">Волгоград</a>
+											<a href="https://smr.jservces.ru">Самара</a>
+											<a href="https://kzn.jservces.ru">Казань</a>
+											<a href="https://oms.jservces.ru">Омск</a>
+											<a href="https://ekb.jservces.ru">Екатеринбург</a>
+											<a href="https://krd.jservces.ru">Краснодар</a>
+											<a href="https://nnv.jservces.ru">Нижний Новгород</a>
+											<a href="https://nsk.jservces.ru">Новосибирск</a>
+											<a href="https://rnd.jservces.ru">Ростов-на-Дону</a>
+											<a href="https://spb.jservces.ru">Санкт-Петербург</a>
+											<a href="https://chl.jservces.ru">Челябинск</a>
+											<a href="https://kir.jservces.ru">Киров</a>
 									</div>
 			</div>
 		</div>
@@ -223,9 +177,9 @@
 					<span class="shine"></span>
 				</button>
 				<div class="search-form" id="searchform" itemscope itemtype="https://schema.org/WebSite">
-					<meta itemprop="url" content="https://asc-rem.ru">
+					<meta itemprop="url" content="https://jservces.ru">
 					<form class="search-form custom-search" id="searchform" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
-						<meta itemprop="target" content="https://asc-rem.ru/search/?s={s}">
+						<meta itemprop="target" content="https://jservces.ru/search/?s={s}">
 						<input type="hidden" name="searchid">
 						<input type="text" name="text" class="search-form__input" placeholder="Поиск по сайту.." autocomplete="off" itemprop="query-input">
 						<input type="hidden" name="web" value="0">
@@ -241,32 +195,32 @@
 						<div class="adressCity">г. Москва</div>
 						<div class="adressStrt">Гарибальди, 36</div>
 						<div class="select-city" style="display: none">
-															<a href="https://ufa.asc-rem.ru">Уфа</a>
-															<a href="https://vrn.asc-rem.ru">Воронеж</a>
-															<a href="https://krn.asc-rem.ru">Красноярск</a>
-															<a href="https://prm.asc-rem.ru">Пермь</a>
-															<a href="https://irk.asc-rem.ru">Иркутск</a>
-															<a href="https://tmn.asc-rem.ru">Тюмень</a>
-															<a href="https://tms.asc-rem.ru">Томск</a>
-															<a href="https://hbr.asc-rem.ru">Хабаровск</a>
-															<a href="https://srt.asc-rem.ru">Саратов</a>
-															<a href="https://yrs.asc-rem.ru">Ярославль</a>
-															<a href="https://tol.asc-rem.ru">Тольятти</a>
-															<a href="https://izh.asc-rem.ru">Ижевск</a>
-															<a href="https://brn.asc-rem.ru">Барнаул</a>
-															<a href="https://uly.asc-rem.ru">Ульяновск</a>
-															<a href="https://vlg.asc-rem.ru">Волгоград</a>
-															<a href="https://smr.asc-rem.ru">Самара</a>
-															<a href="https://kzn.asc-rem.ru">Казань</a>
-															<a href="https://oms.asc-rem.ru">Омск</a>
-															<a href="https://ekb.asc-rem.ru">Екатеринбург</a>
-															<a href="https://krd.asc-rem.ru">Краснодар</a>
-															<a href="https://nnv.asc-rem.ru">Нижний Новгород</a>
-															<a href="https://nsk.asc-rem.ru">Новосибирск</a>
-															<a href="https://rnd.asc-rem.ru">Ростов-на-Дону</a>
-															<a href="https://spb.asc-rem.ru">Санкт-Петербург</a>
-															<a href="https://chl.asc-rem.ru">Челябинск</a>
-															<a href="https://kir.asc-rem.ru">Киров</a>
+															<a href="https://ufa.jservces.ru">Уфа</a>
+															<a href="https://vrn.jservces.ru">Воронеж</a>
+															<a href="https://krn.jservces.ru">Красноярск</a>
+															<a href="https://prm.jservces.ru">Пермь</a>
+															<a href="https://irk.jservces.ru">Иркутск</a>
+															<a href="https://tmn.jservces.ru">Тюмень</a>
+															<a href="https://tms.jservces.ru">Томск</a>
+															<a href="https://hbr.jservces.ru">Хабаровск</a>
+															<a href="https://srt.jservces.ru">Саратов</a>
+															<a href="https://yrs.jservces.ru">Ярославль</a>
+															<a href="https://tol.jservces.ru">Тольятти</a>
+															<a href="https://izh.jservces.ru">Ижевск</a>
+															<a href="https://brn.jservces.ru">Барнаул</a>
+															<a href="https://uly.jservces.ru">Ульяновск</a>
+															<a href="https://vlg.jservces.ru">Волгоград</a>
+															<a href="https://smr.jservces.ru">Самара</a>
+															<a href="https://kzn.jservces.ru">Казань</a>
+															<a href="https://oms.jservces.ru">Омск</a>
+															<a href="https://ekb.jservces.ru">Екатеринбург</a>
+															<a href="https://krd.jservces.ru">Краснодар</a>
+															<a href="https://nnv.jservces.ru">Нижний Новгород</a>
+															<a href="https://nsk.jservces.ru">Новосибирск</a>
+															<a href="https://rnd.jservces.ru">Ростов-на-Дону</a>
+															<a href="https://spb.jservces.ru">Санкт-Петербург</a>
+															<a href="https://chl.jservces.ru">Челябинск</a>
+															<a href="https://kir.jservces.ru">Киров</a>
 													</div>
 					</div>
 				</div>
@@ -3162,8 +3116,8 @@
 			"@context": "http://www.schema.org",
 			"@type": "ProfessionalService",
 			"name": "ASC-Service — сервисный центр в Москве",
-			"url": "https://asc-rem.ru",
-			"logo": "https://asc-rem.ru/public/img/logo-asc.svg",
+			"url": "https://jservces.ru",
+			"logo": "https://jservces.ru/public/img/logo-asc.svg",
 			"description": "Ремонт техники в авторизованном сервисном центре - ASC-Service, с выездом на дом или офис в Москве. Гарантия до 3 лет на все виды работ.",
 			"address": {
 				"@type": "PostalAddress",
@@ -3355,7 +3309,7 @@
 </ul>
 <p>Зарегистрированные товарные знаки используются для описания услуг, доступных в сети сервисных центров JSERVICE, не связанных с компаниями Правообладателей товарных знаков и/или с их официальными представителями в отношении товаров, которые уже введены в гражданский оборот по смыслу статьи 1487 Гражданского кодекса.</p>
 <p><strong>** - время, необходимое для ремонта, может варьироваться в зависимости от модели устройства и сложности работы.</strong></p>
-<p>На сайте <a href="https://asc-rem.ru">https://asc-rem.ru</a> доступна информация о соответствующих моделях и конфигурациях, ценах, возможных выгодах, а также условиях сотрудничества.</p>
+<p>На сайте <a href="https://jservces.ru">https://jservces.ru</a> доступна информация о соответствующих моделях и конфигурациях, ценах, возможных выгодах, а также условиях сотрудничества.</p>
 			</div>
 		</div>
 		<div class="copyleft">
@@ -3659,7 +3613,7 @@
 					});
 					// -----------------------------------------------------------------
 
-					ym(91319487, 'reachGoal', 'asc-rem.ru');
+					ym(91319487, 'reachGoal', 'jservces.ru');
 					console.log('Заявка отправлена');
 					let form = _this.parent('form');
 					let succes = form.next();

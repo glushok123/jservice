@@ -485,7 +485,7 @@
 						});
 						// -----------------------------------------------------------------
 
-						//ym(91319487, 'reachGoal', 'asc-rem.ru');
+						//ym(91319487, 'reachGoal', 'jservces.ru');
 						console.log('Заявка отправлена');
 						let form = _this.parent('form');
 						let succes = form.next();
