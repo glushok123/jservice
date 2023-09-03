@@ -1909,7 +1909,7 @@ input.msSubmit:hover {
 }
 
 .footer-col .menu li a:hover {
-    color: blue
+    color: #06c
 }
 
 .cbModal .modal__cross {
@@ -3783,7 +3783,7 @@ figure.gallery-item img {
 }
 
 .privacy__text a {
-    color: blue
+    color: #06c
 }
 
 .breadcrumbs .breadcrumb {
@@ -4727,7 +4727,7 @@ a.malfunction:hover {
 
 .line {
     padding: 4px 24px;
-    border: 1px solid blue;
+    border: 1px solid #06c;
     border-radius: 100px;
     font-weight: 600;
     cursor: pointer;
@@ -4739,7 +4739,7 @@ a.malfunction:hover {
 }
 
 .line:hover {
-    background-color: blue;
+    background-color: #06c;
     color: white;
     transition: 0.2s ease-in-out;
 }

@@ -37,7 +37,7 @@
                 <p></p>
             </div>
             <div class="col-md-5" itemscope itemtype="http://schema.org/ImageObject">
-                <meta itemprop="name" content="Гарантия на ремонт в ASC-Service">
+                <meta itemprop="name" content="Гарантия на ремонт в JSERVICE">
                 <img src="images/service-man-01.png" class="varrMan" itemprop="contentUrl">
                 <meta itemprop="description"
                     content="Устраним поломку, если возникнет в гарантийный период бесплатно">
@@ -79,6 +79,6 @@
 
 @endsection
 
-@section('description', 'ASC-Service — сервисный центр осуществляет ремонт любой техники c гарантией до 3-х лет ✅ Устраним поломку, если возникнет в гарантийный период бесплатно. В предоставляемую гарантию входит послеремонтное обслуживание вашей техники.')
-@section('keywords', 'гарантия на ремонт, ASC-Service — сервисный центр')
-@section('title', 'Гарантия ASC-Service — сервисный центр по ремонту техники в Москве')
+@section('description', 'JSERVICE — сервисный центр осуществляет ремонт любой техники c гарантией до 3-х лет ✅ Устраним поломку, если возникнет в гарантийный период бесплатно. В предоставляемую гарантию входит послеремонтное обслуживание вашей техники.')
+@section('keywords', 'гарантия на ремонт, JSERVICE — сервисный центр')
+@section('title', 'Гарантия JSERVICE — сервисный центр по ремонту техники в Москве')

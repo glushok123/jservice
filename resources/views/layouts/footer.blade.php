@@ -52,7 +52,7 @@
 				</div>
 				<div class="footerPart-3 footer-col">
 
-					<!--div class="footer-title">ASC Service в соц. сетях</!--div>
+					<!--div class="footer-title">JSERVICE в соц. сетях</!--div>
 					<div-- class="menu-other-container box-icon-social">
 						<div class="social-icon">
 							<a target="_blank" href="https://www.youtube.com/@asc-rem">

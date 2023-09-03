@@ -28,6 +28,7 @@
     <meta property="og:image:height" content="386">
     <meta property="og:image:alt" content="Специализированный сервисный центр по ремонту и диагностике любой техники">
 	<meta name="yandex-verification" content="36467b293afb8d2c" />
+    <meta name="yandex-verification" content="433a1c48ea310135" />
 
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -204,7 +205,7 @@ $categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('sort', 'ASC'
             <meta itemprop="headline" content="JService — сервисный центр в Москве">
             <meta itemprop="description"
                 content="АСЦ — Срочный ремонт техники в Москве с бесплатной диагностикой  ✅ Гарантия до 3 лет. ✅ Получите скидку 25% при первом обращении!">
-            <meta itemprop="keywords" content="ASC-Рем-Сервис, Сервис центр по срочному ремонту">
+            <meta itemprop="keywords" content="JSERVICE, Сервис центр по срочному ремонту">
 
         </header>
         @yield('content')
