@@ -126,7 +126,7 @@ $categorys = RepairCategory::select('id', 'name', 'slug')->orderBy('sort', 'ASC'
                             <meta itemprop="url" content="https://jservces.ru/">
                             <form class="search-form custom-search" id="searchform" itemprop="potentialAction" itemscope
                                 itemtype="https://schema.org/SearchAction">
-                                <meta itemprop="target" content="https://jservces.ru//search/?s={s}">
+                                <meta itemprop="target" content="https://jservces.ru/search/?s={s}">
                                 <input type="hidden" name="searchid">
                                 <input type="text" name="text" class="search-form__input" placeholder="Поиск по сайту.."
                                     autocomplete="off" itemprop="query-input">

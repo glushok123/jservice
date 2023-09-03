@@ -90,6 +90,7 @@ class Test2Controller extends Controller
 
     public function test2()
     {
+        dd("STOP");
         ini_set('post_max_size', '5000M');         // Максимальный размер данных 
         ini_set('upload_max_filesize', '100M');    // Максимальный размер файлов
         ini_set('max_execution_time', '600000');   // Максимальное время выполнения скрипта

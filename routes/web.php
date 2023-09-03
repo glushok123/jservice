@@ -41,7 +41,12 @@ Route::group(['prefix' => 'sub_category', 'as' => 'sub_category.'], function () 
     Route::get('/{slug_sub_category}/brand/{slug_brand}/service/{slug_service}', 'RepairCategoryController@showSubCategoryBrandService')->name('sub_category_brand_service.show');
 });
 
-Route::get('test2', 'Test2Controller@test2');
+/* Sitemap */
+Route::get('/sitemap', 'SitemapController@index');
+Route::get('/sitemap/category', 'SitemapController@category');
+Route::get('/sitemap/sub_category', 'SitemapController@sub_category');
+
+/*Route::get('test2', 'Test2Controller@test2');
 Route::get('ttest', 'TestController@test');
 Route::get('ttest2/{user1}/{user2}', 'TestController@test2');
 
@@ -58,8 +63,11 @@ Route::post('update-cart', 'CartController@updateCart')->name('cart.update');
 Route::post('remove', 'CartController@removeCart')->name('cart.remove'); // you can use delete method
 Route::post('clear', 'CartController@clearAllCart')->name('cart.clear'); // you can use delete method
 
+*/
 /** CATCH-ALL ROUTE for Backpack/PageManager - needs to be at the end of your routes.php file **/
+
+/*
 Route::get('{page}/{subs?}', ['uses' => '\App\Http\Controllers\PageController@index'])
     ->where(['page' => '^(((?=(?!admin))(?=(?!\/)).))*$', 'subs' => '.*']);
-
+*/
 
