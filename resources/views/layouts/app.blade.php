@@ -29,6 +29,7 @@
     <meta property="og:image:alt" content="Специализированный сервисный центр по ремонту и диагностике любой техники">
     <meta name="yandex-verification" content="36467b293afb8d2c" />
     <meta name="yandex-verification" content="433a1c48ea310135" />
+    <meta name="yandex-verification" content="7e3f911faa9264ff" />
 
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
